@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.7.0
+addons:
+  postgresql: "12.2"
+before_script:
+  - gem install rake
+  - gem install bundler -v 1.16.2
+  - psql -c 'create database tutsplus_ci_test' -U postgres
+  - cp config/database.yml.travis config/database.yml
