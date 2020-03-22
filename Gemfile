@@ -12,7 +12,7 @@ gem 'tzinfo-data'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jquery-turbolinks'
-
+gem 'bundler', '~>1.17.2'
 gem 'haml-rails'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
